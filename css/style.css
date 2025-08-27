@@ -14,7 +14,7 @@ body {
   
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background: linear-gradient(142deg, #f9fafb 0%, #d2d6db 100%);
 }
 
@@ -23,13 +23,11 @@ body {
   max-width: 340px;
   height: 100%;
   max-height: 233px;
-  background-color: #d9d9d9;
   border-radius: 8px;
-  box-shadow: 0 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
-}
-
-.card-content {
+  margin-top: 200px;
   padding: 24px;
+  background-color: #d9d9d9;
+  box-shadow: 0 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
 }
 
 .card-header {
