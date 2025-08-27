@@ -68,3 +68,19 @@ body {
   color: #000;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(117deg, #f9fafb 0%, #d2d6db 100%);
+  }
+
+  .card-container{
+    background-color: #f9fafb;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background: linear-gradient(107deg, #f9fafb 0%, #d2d6db 100%);
+  }
+}
